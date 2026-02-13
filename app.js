@@ -12,7 +12,7 @@ import { getRandomEmoji, DiscordRequest } from './utils.js';
 import { getShuffledOptions, getResult } from './game.js';
 import { gapiAuth } from './gapi-auth.js'
 
-await gapiAuth();
+// await gapiAuth();  // Google auth
 
 // Create an express app
 const app = express();
