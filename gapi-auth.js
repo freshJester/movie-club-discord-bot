@@ -39,9 +39,9 @@ export function getAuthenticatedClient() {
     // create an oAuth client to authorize the API call.  Secrets are kept in a `keys.json` file,
     // which should be downloaded from the Google Developers Console.
     const oAuth2Client = new OAuth2Client({
-      clientId: keys.installed.client_id,
-      clientSecret: keys.installed.client_secret,
-      redirectUri: keys.installed.redirect_uris[0]
+      clientId: keys.web.client_id,
+      clientSecret: keys.web.client_secret,
+      redirectUri: keys.web.redirect_uris[0]
     });
 
     // Generate the url that will be used for the consent dialog.

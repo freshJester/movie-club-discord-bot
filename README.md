@@ -101,8 +101,15 @@ On the **General Information** tab, there will be an **Interactions Endpoint URL
 
 Click **Save Changes**, and your app should be ready to run 🚀
 
+```
+npm run start
+```
+
 ## Other resources
 - Read **[the documentation](https://discord.com/developers/docs/intro)** for in-depth information about API features.
 - Browse the `examples/` folder in this project for smaller, feature-specific code examples
 - Join the **[Discord Developers server](https://discord.gg/discord-developers)** to ask questions about the API, attend events hosted by the Discord API team, and interact with other devs.
 - Check out **[community resources](https://discord.com/developers/docs/topics/community-resources#community-resources)** for language-specific tools maintained by community members.
+
+## TODO FOR JAY
+- What is the express redirect?  No more "page not found", but now the auth is just stuck on buffering.  Maybe the redirect uri still isn't right?
